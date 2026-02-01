@@ -1,0 +1,21 @@
+node_modules
+.next
+.vercel
+out
+dist
+.DS_Store
+
+# Env files (never commit real secrets)
+.env*
+!.env.example
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Supabase CLI artifacts
+supabase/.temp/
+supabase/.branches/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
